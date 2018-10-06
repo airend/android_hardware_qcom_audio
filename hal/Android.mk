@@ -234,6 +234,7 @@ LOCAL_MODULE_OWNER := qcom
 
 LOCAL_PROPRIETARY_MODULE := true
 
+LOCAL_CFLAGS += -Wno-sign-compare
 LOCAL_CFLAGS += -Werror
 
 include $(BUILD_SHARED_LIBRARY)
